@@ -1,7 +1,6 @@
 # modules
 import sys
 from csv import reader
-from http import server
 import webbrowser
 import requests
 import urllib.parse
@@ -10,10 +9,12 @@ import os
 import time
 import json
 
+from operator import itemgetter
 from requests.api import request
 import config
-from http.server import HTTPServer, BaseHTTPRequestHandler
 
+
+# taken from https://stackoverflow.com/questions/39858027/oauth-and-redirect-uri-in-offline-python-script
 class Communicator:
 
     def __init__(self):
@@ -22,7 +23,6 @@ class Communicator:
         self.server, self.port = 'localhost', 8139
         self._redirect_uri = f'https://{self.server}:{self.port}'
         self._last_request_time = 0
-
 
     def auth(self):
 
@@ -36,10 +36,6 @@ class Communicator:
         request = requests.Request('GET', AUTH, params).prepare()
         request.prepare_url(AUTH, params)
         webbrowser.open(request.url)
-
-        # server = HTTPServer((self.server, self.port), RequestHandler)
-
-        # server.handle_request()
 
         token_url = input("Please ALLOW access and copy and paste the resulting URL here: ")
         query = urllib.parse.parse_qs(urllib.parse.urlparse(token_url).query)
@@ -57,13 +53,10 @@ class Communicator:
 
         self._get_token(params)
 
- 
-
     def _get_token(self, params):
         r = requests.post(TOKEN, params).json()
         self.token = r['access_token']
         self.refresh_token = r['refresh_token']
-
 
     def _refresh_token(self):
         params = {
@@ -74,7 +67,6 @@ class Communicator:
         }
 
         self._get_token(params)
-
 
     def _request(self, func, url, params, sleep=5, cooldown=600):
         t = time.time()
@@ -105,13 +97,12 @@ class Communicator:
                 print(f"Request limit reached - waiting {cooldown // 60} minutes before retrying...")
                 time.sleep(cooldown)
 
- 
     def get(self, url, params):
         return self._request(requests.get, url, params)
 
-
     def post(self, url, params):
         return self._request(requests.post, url, params)
+
 
 class Component:
     def __init__(self, quantity, quantity_available, stock_code, price, error_message):
@@ -121,10 +112,9 @@ class Component:
         self.price = float(price)
         self.error_message = error_message
     
-    def __str__(self):
+    def comp_str(self):
         return f'''—————————————————————————————————————————————————
 Quantity Required: \t{self.quantity}
-Quantity In Stock: \t{self.quantity_available}
 Stock Code: \t\t{self.stock_code}
 Price: \t\t\t{self.price}
 —————————————————————————————————————————————————\n
@@ -133,15 +123,52 @@ Price: \t\t\t{self.price}
     def error_str(self):
         return f'''—————————————————————————————————————————————————
 Quantity required: \t{self.quantity}
-Quantity In Stock: \t{self.quantity_available}
 Stock Code: \t\t{self.stock_code}
 Error: \t\t\t{self.error_message}
 —————————————————————————————————————————————————\n
 '''
 
-def view():
+
+def view_components(file):
     for comp in component_list:
-        print(comp)
+        file.write(comp.comp_str())
+    
+
+def view_errors(file):
+    for error in error_list:
+        file.write(error.error_str())
+
+
+def get_price(quantity, product_dict):
+    null_price = {'BreakQuantity': 0, 'UnitPrice': 0.0, 'TotalPrice': 0.0}
+    unsorted_price_list = []
+
+    for element in product_dict['Products'][1]['StandardPricing']:
+        unsorted_price_list.append(element)
+
+    for element in product_dict['Products'][0]['StandardPricing']:
+        unsorted_price_list.append(element)
+
+    price_list = sorted(unsorted_price_list, key=itemgetter('BreakQuantity'))
+
+    if quantity>0:
+        counter = 0
+        while quantity > price_list[counter]['BreakQuantity']:
+            counter += 1
+            if counter >= len(price_list):
+                break
+        return price_list[counter - 1]
+    else:
+        return null_price
+    
+
+def get_qty_available(product_dict):
+    return max(product_dict['Products'][0]['QuantityAvailable'],product_dict['Products'][1]['QuantityAvailable'])
+
+
+def get_dk_part_number(product_dict):
+    return product_dict['Products'][0]['DigiKeyPartNumber']
+
 
 if __name__ == '__main__':
     AUTH = 'https://sandbox-api.digikey.com/v1/oauth2/authorize'
@@ -158,51 +185,57 @@ if __name__ == '__main__':
     # make the number of parts you want to check for the second argument in command line
     num_parts = int(sys.argv[2])
 
-
     state = binascii.hexlify(os.urandom(20)).decode('utf-8')
     com = Communicator()
     com.auth()
-
-    # stock_code = 'p5555-nd'
-    # quantity = str(50)
+    Host = 'https://sandbox-api.digikey.com/PackageTypeByQuantity/v3/Products/'
     HEADERS = {
         'X-DIGIKEY-Client-Id': com.client_id,
         'Authorization': 'Bearer '+com.token,
-        'X-DIGIKEY-Locale-Site': 'US',
+        'X-DIGIKEY-Locale-Site': 'UK',
         'X-DIGIKEY-Locale-Language': 'en',
-        'X-DIGIKEY-Locale-Currency': 'USD',
-        'X-DIGIKEY-Locale-ShipToCountry': 'us',
+        'X-DIGIKEY-Locale-Currency': 'GBP',
+        'X-DIGIKEY-Locale-ShipToCountry': 'uk',
         'X-DIGIKEY-Customer-Id': '0'
     }
 
-    file = open("testProduct.txt", 'w')
+    # file = open("testProduct.txt", 'w')
 
     for line in reader(bom):
         component_info = line
         quantity = int(component_info[1]) * int(num_parts)
-        quantity_in_stock = quantity  # for now
         stock_code = component_info[4]
-        Host = 'https://sandbox-api.digikey.com/PackageTypeByQuantity/v3/Products/'
         Host_URL = Host + stock_code
         PARAMS = {
             'RequestedQuantity' : str(quantity),
             'Includes' : 'Products(DigiKeyPartNumber,QuantityAvailable,StandardPricing)'
         }
-        response=request(method="GET", url=Host_URL, headers=HEADERS, params=PARAMS)
-        # print(response.json())
-        file.writelines(f"Stock Code: {stock_code} , Required Quantity: {quantity}, {str(response.content)}\n\n")
-        # call to api returns something : assume for now the api returns 5000
-        # if not error
-        # price=5000
-        # print_out(quantity*num_parts, stock_code, price, "")
-        # # else if error
-        # # print error message
-        # print_out(quantity*num_parts, stock_code, 0, "Error - data does match")
+        response = request(method="GET", url=Host_URL, headers=HEADERS, params=PARAMS)
+        if response.status_code == 200:
+            error_message = ""
+            product_dict = json.loads(str(response.content)[2:-1])
+            quantity_in_stock = get_qty_available(product_dict)
+            DigiKeyPartNumber = get_dk_part_number(product_dict)
+            unit_price = get_price(quantity, product_dict)['UnitPrice']
+            total_price = get_price(quantity, product_dict)['UnitPrice'] * quantity
+            component = Component(quantity, quantity_in_stock, stock_code, round(total_price, 2), "")
+            component_list.append(component)
 
-        component = Component(quantity, quantity_in_stock, stock_code, 0, "")
-        component_list.append(component)
+        else:
+            error_message = f"Error: {response.text}"
+            component = Component(quantity, 0, stock_code, 0, error_message)
+            error_list.append(component)
+       
+    # open a file to write the prices into including all that do not match then close
+    f = open("DigikeyPricing.txt", "w")
+    f.write("Available Components:\n")
+    view_components(f)
+    f.write("\nData That Does Not Match:\n")
+    view_errors(f)
+    f.close()
 
-    file.close()
-
-
-    # view()
+    # open the same file to read into and store the contents of the file then print on the console
+    f = open("DigikeyPricing.txt", "r")
+    dk_pricing = f.read()
+    f.close()
+    print(dk_pricing)
