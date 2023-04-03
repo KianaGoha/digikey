@@ -1,201 +1,201 @@
 Available Components:
 —————————————————————————————————————————————————
-Quantity Required: 	200
-Stock Code: 		nf
-Price: 			294.64
-—————————————————————————————————————————————————
-
-—————————————————————————————————————————————————
 Quantity Required: 	2300
 Stock Code: 		TMK105BJ104KV-F
-Price: 			2174.65
+Price: 			17.57
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
 Quantity Required: 	350
 Stock Code: 		CL21A106KAYNNNE
-Price: 			515.62
+Price: 			17.57
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
 Quantity Required: 	50
 Stock Code: 		RC0402FR-07953RL
-Price: 			105.25
+Price: 			0.6
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
 Quantity Required: 	900
 Stock Code: 		RC0402FR-073KL
-Price: 			1073.3
+Price: 			4.32
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
 Quantity Required: 	1150
 Stock Code: 		RMCF0402FT1K00
-Price: 			1250.43
+Price: 			2.47
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
 Quantity Required: 	400
 Stock Code: 		CSRF1206FT10L0
-Price: 			589.28
+Price: 			72.38
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
 Quantity Required: 	150
 Stock Code: 		ERJ-2RKF1800X
-Price: 			220.98
+Price: 			1.74
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
 Quantity Required: 	350
 Stock Code: 		CRGCQ0402F4K7
-Price: 			515.62
+Price: 			3.04
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
 Quantity Required: 	300
 Stock Code: 		RMCF0402FT1K00
-Price: 			441.96
+Price: 			1.41
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
 Quantity Required: 	150
 Stock Code: 		RMCF0402FT1K00
-Price: 			220.98
+Price: 			0.71
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
 Quantity Required: 	100
 Stock Code: 		PCA9534BS,118
-Price: 			210.5
-—————————————————————————————————————————————————
-
-—————————————————————————————————————————————————
-Quantity Required: 	100
-Stock Code: 		PCA9547BS_118
-Price: 			210.5
+Price: 			142.2
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
 Quantity Required: 	100
 Stock Code: 		74HC4067PW-Q100J
-Price: 			210.5
+Price: 			107.88
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
 Quantity Required: 	400
 Stock Code: 		INA181A3IDBVT
-Price: 			589.28
-—————————————————————————————————————————————————
-
-—————————————————————————————————————————————————
-Quantity Required: 	50
-Stock Code: 		RPM5
-Price: 			105.25
+Price: 			235.49
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
 Quantity Required: 	50
 Stock Code: 		L78L33CD-TR
-Price: 			105.25
+Price: 			15.16
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
 Quantity Required: 	200
 Stock Code: 		151031VS06000
-Price: 			294.64
+Price: 			22.16
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
 Quantity Required: 	750
 Stock Code: 		DRTR5V0U2SR-7
-Price: 			894.42
+Price: 			96.55
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
 Quantity Required: 	250
 Stock Code: 		2-644861-5
-Price: 			368.3
+Price: 			155.28
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
 Quantity Required: 	150
 Stock Code: 		2-644861-2
-Price: 			220.98
+Price: 			36.87
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
 Quantity Required: 	400
 Stock Code: 		2-644861-6
-Price: 			589.28
+Price: 			273.12
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
 Quantity Required: 	650
 Stock Code: 		0ZRN0300FF1E
-Price: 			775.16
+Price: 			199.67
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
 Quantity Required: 	200
 Stock Code: 		0ZRN0300FF1E
-Price: 			294.64
+Price: 			79.52
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
 Quantity Required: 	50
 Stock Code: 		0ZRN0300FF1E
-Price: 			105.25
-—————————————————————————————————————————————————
-
-—————————————————————————————————————————————————
-Quantity Required: 	400
-Stock Code: 		RUSBF110-2
-Price: 			589.28
-—————————————————————————————————————————————————
-
-—————————————————————————————————————————————————
-Quantity Required: 	200
-Stock Code: 		NO FIT
-Price: 			294.64
-—————————————————————————————————————————————————
-
-—————————————————————————————————————————————————
-Quantity Required: 	50
-Stock Code: 		adafruit qt py
-Price: 			105.25
+Price: 			28.45
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
 Quantity Required: 	100
 Stock Code: 		2-644861-3
-Price: 			210.5
+Price: 			42.0
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
 Quantity Required: 	100
 Stock Code: 		L0603100GGSTR
-Price: 			210.5
-—————————————————————————————————————————————————
-
-—————————————————————————————————————————————————
-Quantity Required: 	50
-Stock Code: 		2-647123-9
-Price: 			105.25
-—————————————————————————————————————————————————
-
-—————————————————————————————————————————————————
-Quantity Required: 	50
-Stock Code: 		NO FIT
-Price: 			105.25
+Price: 			50.92
 —————————————————————————————————————————————————
 
 
 Data That Does Not Match:
 —————————————————————————————————————————————————
+Quantity required: 	200
+Stock Code: 		nf
+Error: 			Error: {"ErrorResponseVersion":"3.0.0.0","StatusCode": 404,"ErrorMessage":"PART_NOT_FOUND NF","ErrorDetails":"Error in retrieving part details for Part Number NF","RequestId":"568e8f2f-70ec-4246-f064-2afe2e165f22","ValidationErrors":[]}
+—————————————————————————————————————————————————
+
+—————————————————————————————————————————————————
+Quantity required: 	100
+Stock Code: 		PCA9547BS_118
+Error: 			Error: {"ErrorResponseVersion":"3.0.0.0","StatusCode": 404,"ErrorMessage":"PART_NOT_FOUND PCA9547BS_118","ErrorDetails":"Error in retrieving part details for Part Number PCA9547BS_118","RequestId":"949cf52f-5121-404a-b6bc-afe073ff1613","ValidationErrors":[]}
+—————————————————————————————————————————————————
+
+—————————————————————————————————————————————————
 Quantity required: 	50
 Stock Code: 		MCP9843T-BE/ST
-Error: 			Error: {"ErrorResponseVersion":"3.0.0.0","StatusCode": 404,"ErrorMessage":"Invalid resource path","ErrorDetails":"Requested resource is not available","RequestId":"02afa557-7766-4386-e115-1cc813b29f11","ValidationErrors":[]}
+Error: 			Error: {"ErrorResponseVersion":"3.0.0.0","StatusCode": 404,"ErrorMessage":"Invalid resource path","ErrorDetails":"Requested resource is not available","RequestId":"1744cca9-53d0-4ce8-841b-1b9753c1a4aa","ValidationErrors":[]}
+—————————————————————————————————————————————————
+
+—————————————————————————————————————————————————
+Quantity required: 	50
+Stock Code: 		RPM5
+Error: 			Error: {"ErrorResponseVersion":"3.0.0.0","StatusCode": 404,"ErrorMessage":"PART_NOT_FOUND RPM5","ErrorDetails":"Error in retrieving part details for Part Number RPM5","RequestId":"5a0a67ec-b2c5-4d9d-b35d-7c3b7dc01f5d","ValidationErrors":[]}
+—————————————————————————————————————————————————
+
+—————————————————————————————————————————————————
+Quantity required: 	400
+Stock Code: 		RUSBF110-2
+Error: 			Error: {"ErrorResponseVersion":"3.0.0.0","StatusCode": 400,"ErrorMessage":"UNRESOLVED_MANF_NUMBER RUSBF110-2","ErrorDetails":"Error in PkgTypeByQty for Part Number RUSBF110-2","RequestId":"644116f2-364f-47f2-dba9-8926de7b1010","ValidationErrors":[]}
+—————————————————————————————————————————————————
+
+—————————————————————————————————————————————————
+Quantity required: 	200
+Stock Code: 		NO FIT
+Error: 			Error: {"ErrorResponseVersion":"3.0.0.0","StatusCode": 404,"ErrorMessage":"PART_NOT_FOUND NO FIT","ErrorDetails":"Error in retrieving part details for Part Number NO FIT","RequestId":"a943ce74-9b48-4e4f-f426-5bdd77286654","ValidationErrors":[]}
+—————————————————————————————————————————————————
+
+—————————————————————————————————————————————————
+Quantity required: 	50
+Stock Code: 		adafruit qt py
+Error: 			Error: {"ErrorResponseVersion":"3.0.0.0","StatusCode": 404,"ErrorMessage":"PART_NOT_FOUND ADAFRUIT QT PY","ErrorDetails":"Error in retrieving part details for Part Number ADAFRUIT QT PY","RequestId":"e30ab2ca-85bf-44ef-d161-9407fb386df3","ValidationErrors":[]}
+—————————————————————————————————————————————————
+
+—————————————————————————————————————————————————
+Quantity required: 	50
+Stock Code: 		2-647123-9
+Error: 			Error: {"ErrorResponseVersion":"3.0.0.0","StatusCode": 400,"ErrorMessage":"Quantity must be a multiple of 9000 2-647123-9","ErrorDetails":"Error in PkgTypeByQty for Part Number 2-647123-9","RequestId":"353632cb-055d-45ac-e309-40e44229942e","ValidationErrors":[]}
+—————————————————————————————————————————————————
+
+—————————————————————————————————————————————————
+Quantity required: 	50
+Stock Code: 		NO FIT
+Error: 			Error: {"ErrorResponseVersion":"3.0.0.0","StatusCode": 404,"ErrorMessage":"PART_NOT_FOUND NO FIT","ErrorDetails":"Error in retrieving part details for Part Number NO FIT","RequestId":"72e7f902-22ce-4577-e494-e5ac6904986e","ValidationErrors":[]}
 —————————————————————————————————————————————————
 
