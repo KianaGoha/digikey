@@ -1,146 +1,170 @@
 Available Components:
 —————————————————————————————————————————————————
-Quantity Required: 	2300
-Stock Code: 		TMK105BJ104KV-F
-Price: 			17.57
+Quantity Required: 		2300
+Quantity Available: 	10827992
+Stock Code: 			TMK105BJ104KV-F
+Cut Tape Price: 		£17.11
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
-Quantity Required: 	350
-Stock Code: 		CL21A106KAYNNNE
-Price: 			17.57
+Quantity Required: 		350
+Quantity Available: 	1490212
+Stock Code: 			CL21A106KAYNNNE
+Cut Tape Price: 		£17.11
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
-Quantity Required: 	50
-Stock Code: 		RC0402FR-07953RL
-Price: 			0.6
+Quantity Required: 		50
+Quantity Available: 	128599
+Stock Code: 			RC0402FR-07953RL
+Cut Tape Price: 		£0.6
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
-Quantity Required: 	900
-Stock Code: 		RC0402FR-073KL
-Price: 			4.32
+Quantity Required: 		900
+Quantity Available: 	859133
+Stock Code: 			RC0402FR-073KL
+Cut Tape Price: 		£5.31
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
-Quantity Required: 	1150
-Stock Code: 		RMCF0402FT1K00
-Price: 			2.47
+Quantity Required: 		1150
+Quantity Available: 	12040258
+Stock Code: 			RMCF0402FT1K00
+Cut Tape Price: 		£2.4
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
-Quantity Required: 	400
-Stock Code: 		CSRF1206FT10L0
-Price: 			72.38
+Quantity Required: 		400
+Quantity Available: 	24422
+Stock Code: 			CSRF1206FT10L0
+Cut Tape Price: 		£70.43
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
-Quantity Required: 	150
-Stock Code: 		ERJ-2RKF1800X
-Price: 			1.74
+Quantity Required: 		150
+Quantity Available: 	673989
+Stock Code: 			ERJ-2RKF1800X
+Cut Tape Price: 		£1.69
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
-Quantity Required: 	350
-Stock Code: 		CRGCQ0402F4K7
-Price: 			3.04
+Quantity Required: 		350
+Quantity Available: 	2258428
+Stock Code: 			CRGCQ0402F4K7
+Cut Tape Price: 		£2.98
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
-Quantity Required: 	300
-Stock Code: 		RMCF0402FT1K00
-Price: 			1.41
+Quantity Required: 		300
+Quantity Available: 	12040258
+Stock Code: 			RMCF0402FT1K00
+Cut Tape Price: 		£1.38
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
-Quantity Required: 	150
-Stock Code: 		RMCF0402FT1K00
-Price: 			0.71
+Quantity Required: 		150
+Quantity Available: 	12040258
+Stock Code: 			RMCF0402FT1K00
+Cut Tape Price: 		£0.69
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
-Quantity Required: 	100
-Stock Code: 		PCA9534BS,118
-Price: 			142.2
+Quantity Required: 		100
+Quantity Available: 	22457
+Stock Code: 			PCA9534BS,118
+Cut Tape Price: 		£117.87
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
-Quantity Required: 	100
-Stock Code: 		74HC4067PW-Q100J
-Price: 			107.88
+Quantity Required: 		100
+Quantity Available: 	23356
+Stock Code: 			PCA9547BS_118
+Cut Tape Price: 		£146.52
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
-Quantity Required: 	400
-Stock Code: 		INA181A3IDBVT
-Price: 			235.49
+Quantity Required: 		100
+Quantity Available: 	10743
+Stock Code: 			74HC4067PW-Q100J
+Cut Tape Price: 		£86.24
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
-Quantity Required: 	50
-Stock Code: 		L78L33CD-TR
-Price: 			15.16
+Quantity Required: 		400
+Quantity Available: 	7450
+Stock Code: 			INA181A3IDBVT
+Cut Tape Price: 		£235.12
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
-Quantity Required: 	200
-Stock Code: 		151031VS06000
-Price: 			22.16
+Quantity Required: 		50
+Quantity Available: 	21438
+Stock Code: 			L78L33CD-TR
+Cut Tape Price: 		£14.76
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
-Quantity Required: 	750
-Stock Code: 		DRTR5V0U2SR-7
-Price: 			96.55
+Quantity Required: 		750
+Quantity Available: 	740947
+Stock Code: 			DRTR5V0U2SR-7
+Cut Tape Price: 		£93.95
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
-Quantity Required: 	250
-Stock Code: 		2-644861-5
-Price: 			155.28
+Quantity Required: 		250
+Quantity Available: 	16355
+Stock Code: 			2-644861-5
+Cut Tape Price: 		£151.1
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
-Quantity Required: 	150
-Stock Code: 		2-644861-2
-Price: 			36.87
+Quantity Required: 		150
+Quantity Available: 	47191
+Stock Code: 			2-644861-2
+Cut Tape Price: 		£35.88
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
-Quantity Required: 	400
-Stock Code: 		2-644861-6
-Price: 			273.12
+Quantity Required: 		400
+Quantity Available: 	7613
+Stock Code: 			2-644861-6
+Cut Tape Price: 		£265.76
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
-Quantity Required: 	650
-Stock Code: 		0ZRN0300FF1E
-Price: 			199.67
+Quantity Required: 		650
+Quantity Available: 	4390
+Stock Code: 			0ZRN0300FF1E
+Cut Tape Price: 		£194.28
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
-Quantity Required: 	200
-Stock Code: 		0ZRN0300FF1E
-Price: 			79.52
+Quantity Required: 		200
+Quantity Available: 	4390
+Stock Code: 			0ZRN0300FF1E
+Cut Tape Price: 		£77.36
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
-Quantity Required: 	50
-Stock Code: 		0ZRN0300FF1E
-Price: 			28.45
+Quantity Required: 		50
+Quantity Available: 	4390
+Stock Code: 			0ZRN0300FF1E
+Cut Tape Price: 		£23.29
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
-Quantity Required: 	100
-Stock Code: 		2-644861-3
-Price: 			42.0
+Quantity Required: 		400
+Quantity Available: 	9043
+Stock Code: 			RUSBF110-2
+Cut Tape Price: 		£117.79
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
-Quantity Required: 	100
-Stock Code: 		L0603100GGSTR
-Price: 			50.92
+Quantity Required: 		100
+Quantity Available: 	7556
+Stock Code: 			2-644861-3
+Cut Tape Price: 		£34.0
 —————————————————————————————————————————————————
 
 
@@ -148,54 +172,54 @@ Data That Does Not Match:
 —————————————————————————————————————————————————
 Quantity required: 	200
 Stock Code: 		nf
-Error: 			Error: {"ErrorResponseVersion":"3.0.0.0","StatusCode": 404,"ErrorMessage":"PART_NOT_FOUND NF","ErrorDetails":"Error in retrieving part details for Part Number NF","RequestId":"568e8f2f-70ec-4246-f064-2afe2e165f22","ValidationErrors":[]}
-—————————————————————————————————————————————————
-
-—————————————————————————————————————————————————
-Quantity required: 	100
-Stock Code: 		PCA9547BS_118
-Error: 			Error: {"ErrorResponseVersion":"3.0.0.0","StatusCode": 404,"ErrorMessage":"PART_NOT_FOUND PCA9547BS_118","ErrorDetails":"Error in retrieving part details for Part Number PCA9547BS_118","RequestId":"949cf52f-5121-404a-b6bc-afe073ff1613","ValidationErrors":[]}
+Error: 				This Stock Code cannot be found
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
 Quantity required: 	50
 Stock Code: 		MCP9843T-BE/ST
-Error: 			Error: {"ErrorResponseVersion":"3.0.0.0","StatusCode": 404,"ErrorMessage":"Invalid resource path","ErrorDetails":"Requested resource is not available","RequestId":"1744cca9-53d0-4ce8-841b-1b9753c1a4aa","ValidationErrors":[]}
+Error: 				Invalid resource path
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
 Quantity required: 	50
 Stock Code: 		RPM5
-Error: 			Error: {"ErrorResponseVersion":"3.0.0.0","StatusCode": 404,"ErrorMessage":"PART_NOT_FOUND RPM5","ErrorDetails":"Error in retrieving part details for Part Number RPM5","RequestId":"5a0a67ec-b2c5-4d9d-b35d-7c3b7dc01f5d","ValidationErrors":[]}
+Error: 				This Stock Code cannot be found
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
-Quantity required: 	400
-Stock Code: 		RUSBF110-2
-Error: 			Error: {"ErrorResponseVersion":"3.0.0.0","StatusCode": 400,"ErrorMessage":"UNRESOLVED_MANF_NUMBER RUSBF110-2","ErrorDetails":"Error in PkgTypeByQty for Part Number RUSBF110-2","RequestId":"644116f2-364f-47f2-dba9-8926de7b1010","ValidationErrors":[]}
+Quantity required: 	200
+Stock Code: 		151031VS06000
+Error: 				This component is out of stock
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
 Quantity required: 	200
 Stock Code: 		NO FIT
-Error: 			Error: {"ErrorResponseVersion":"3.0.0.0","StatusCode": 404,"ErrorMessage":"PART_NOT_FOUND NO FIT","ErrorDetails":"Error in retrieving part details for Part Number NO FIT","RequestId":"a943ce74-9b48-4e4f-f426-5bdd77286654","ValidationErrors":[]}
+Error: 				This Stock Code cannot be found
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
 Quantity required: 	50
 Stock Code: 		adafruit qt py
-Error: 			Error: {"ErrorResponseVersion":"3.0.0.0","StatusCode": 404,"ErrorMessage":"PART_NOT_FOUND ADAFRUIT QT PY","ErrorDetails":"Error in retrieving part details for Part Number ADAFRUIT QT PY","RequestId":"e30ab2ca-85bf-44ef-d161-9407fb386df3","ValidationErrors":[]}
+Error: 				This Stock Code cannot be found
+—————————————————————————————————————————————————
+
+—————————————————————————————————————————————————
+Quantity required: 	100
+Stock Code: 		L0603100GGSTR
+Error: 				This component is out of stock
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
 Quantity required: 	50
 Stock Code: 		2-647123-9
-Error: 			Error: {"ErrorResponseVersion":"3.0.0.0","StatusCode": 400,"ErrorMessage":"Quantity must be a multiple of 9000 2-647123-9","ErrorDetails":"Error in PkgTypeByQty for Part Number 2-647123-9","RequestId":"353632cb-055d-45ac-e309-40e44229942e","ValidationErrors":[]}
+Error: 				Quantity must be a multiple of 9000 2-647123-9-ND
 —————————————————————————————————————————————————
 
 —————————————————————————————————————————————————
 Quantity required: 	50
 Stock Code: 		NO FIT
-Error: 			Error: {"ErrorResponseVersion":"3.0.0.0","StatusCode": 404,"ErrorMessage":"PART_NOT_FOUND NO FIT","ErrorDetails":"Error in retrieving part details for Part Number NO FIT","RequestId":"72e7f902-22ce-4577-e494-e5ac6904986e","ValidationErrors":[]}
+Error: 				This Stock Code cannot be found
 —————————————————————————————————————————————————
 
